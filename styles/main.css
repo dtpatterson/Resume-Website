@@ -47,6 +47,12 @@ li{
     line-height: 1.9em;
 }
 
+ul.two-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding-left: 60px;
+}
 
 #container--main{
     max-width: 750px;
