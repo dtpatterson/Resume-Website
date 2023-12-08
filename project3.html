@@ -13,27 +13,38 @@
             <a href="index.html">&#x2190; Go Back</a>
             <h1> BonVoyage </h1>
             <h2> National Park Chooser Application</h2>
-
             <ul>
                 <li><a href="https://github.com/dtpatterson/BonVoyage/tree/master/BonVoyage">GitHub - Project Source Code</a></li>
             </ul>
-
-            <p>Collaborated with a dynamic team of four to craft a user-friendly web application as part of an engaging Applications Programming class at UTSA.</p>
-
-            <p>Our mission? To deliver a seamless and enjoyable experience for travel enthusiasts exploring the beauty of national parks. The application showcased all 63 parks, complete with captivating pictures and detailed descriptions.</p>
-
+            <p>Collaborated with a dynamic team of four to craft a user-friendly web application 
+                as part of an engaging Applications Programming class at UTSA.</p>
+            <p>Our mission? To deliver a seamless and enjoyable experience for travel enthusiasts exploring the beauty of national parks. 
+                The application showcased all 63 parks, complete with captivating pictures and detailed descriptions.</p>
             <p><strong>Technologies included:</strong></p>
-
             <ul>
                 <li>Java - Implementing SOLID principles and the elegant MVC design pattern.</li>
                 <li>JavaFX - Unleashing the power of the "GUI, graphics, and multimedia API of the future."</li>
                 <li>SceneBuilder - A sleek graphical GUI builder seamlessly integrated with JavaFX.</li>
             </ul>
-
             <p><strong>Presentation Video</strong></p>
-            <video width="750" controls>
-                <source src="./assets/videos/BonVoyage.mp4" type="video/mp4">
-            </video>
+            <style>
+                #videoContainer2 {
+                    width: 500px;
+                    transition: width 0.5s;
+                    margin-bottom: 20px;
+                }
+            </style>
+            <div id="videoContainer2" onclick="expandVideo('videoContainer2')">
+                <video width="100%" controls>
+                    <source src="./assets/videos/BonVoyage.mp4" type="video/mp4">
+                </video>
+            </div>
+            <script>
+            function expandVideo(containerId) {
+                var videoContainer = document.getElementById(containerId);
+                videoContainer.style.width = '750px';
+            }
+            </script>
         </div>
     </body>
 </html>
