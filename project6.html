@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/main.css">
+        <script src="./scripts/toggleMode.js"></script>
         <style>
             .image-container {
             display: inline-block;
@@ -18,8 +19,16 @@
             }
         </style>
     </head>
-    <body>
+    <body class="project-page">
         <div id="container--main">
+            <header>
+                <div class="toggle-container">
+                    <input type="checkbox" id="toggle-switch" onclick="toggleMode()">
+                    <label for="toggle-switch" class="toggle-label">
+                        <div class="toggle-slider"></div>
+                    </label>
+                </div>
+            </header>
             <a href="index.html">&#x2190; Go Back</a>
             <h1>Qwerty Security</h1> 
             <h2>Full Stack Cyber Security Website</h2>
@@ -37,15 +46,6 @@
                 <li>DataBase: MySQL</li>
                 <li>Collaboration: GitHub, Discord</li>
             </ul>
-            <!-- <p><strong>Website Features:</strong></p>
-            <ul>
-                <li>Password Generator</li>
-                <li>Audit Checklist</li>
-                <li>External Cyber Tools</li>
-                <li>Interactive Quiz</li>
-                <li>User Account Setup</li>
-                <li>Feedback Mechanism</li>
-            </ul> -->
             <p><strong>Website Highlights</strong></p>
             <div class="image-container">
                 <img src="./assets/images/QS_1.jpeg" alt="Image 1" />
@@ -66,5 +66,6 @@
                 <img src="./assets/images/QS_6.jpeg" alt="Image 6" />
             </div>
         </div>
+        <script src="./scripts/toggleMode.js"></script>
     </body>
 </html>

@@ -7,9 +7,18 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/main.css">
+        <script src="./scripts/toggleMode.js"></script>
     </head>
-    <body>
+    <body class="project-page">
         <div id="container--main">
+            <header>
+                <div class="toggle-container">
+                    <input type="checkbox" id="toggle-switch" onclick="toggleMode()">
+                    <label for="toggle-switch" class="toggle-label">
+                        <div class="toggle-slider"></div>
+                    </label>
+                </div>
+            </header>
             <a href="index.html">&#x2190; Go Back</a>
             <h1>Cybersecurity Audit & Assessment</h1>
             <h2> Assisted MITRE With A Local Non-profit Company</h2>
@@ -25,5 +34,6 @@
             </ul>
             <p>Please note that documents aren't attached due to security reasons.</p>
         </div>
+        <script src="./scripts/toggleMode.js"></script>
     </body>
 </html>

@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./styles/main.css">
+        <script src="./scripts/toggleMode.js"></script>
         <style>
             .image-container {
             display: inline-block;
@@ -18,8 +19,16 @@
             }
         </style>
     </head>
-    <body>
+    <body class="project-page">
         <div id="container--main">
+            <header>
+                <div class="toggle-container">
+                    <input type="checkbox" id="toggle-switch" onclick="toggleMode()">
+                    <label for="toggle-switch" class="toggle-label">
+                        <div class="toggle-slider"></div>
+                    </label>
+                </div>
+            </header>
             <a href="index.html">&#x2190; Go Back</a>
             <h1>NobleBookBarn</h1> 
             <h2>Online Bookstore Crafted From Surveys</h2>
@@ -62,5 +71,6 @@
                 <img src="./assets/images/UI_7.jpeg" alt="Image 7" />
             </div>
         </div>
+        <script src="./scripts/toggleMode.js"></script>
     </body>
 </html>
