@@ -127,15 +127,15 @@ ul.two-row {
 
 .card--education{
     /* border-left: 1px solid var(--mainBorderColor); */
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding-left: 2em;
 }
 
 .card--work-history{
     /* border-left: 1px solid var(--mainBorderColor); */
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding-left: 2em;
 }
 
