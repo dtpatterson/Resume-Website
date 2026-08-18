@@ -62,34 +62,122 @@
                 <div class="card--work-history">
                     <strong>Backend Software Developer | Jivasoft</strong>
                     <p>Feb 2024 - Current</p>
-                    <p>Develop scalable and efficient backend solutions for first responders, ensuring system 
-                        reliability and performance in mission-critical environments.</p>
+
+                    <p>Design, build, and maintain backend systems for a first-responder scheduling platform — 
+                        the first in production to unite extra-duty and on-duty scheduling in a single system — 
+                        as a core contributor to its rebuild from legacy .NET into Go and SQL Server.</p>
+
                     <ul>
-                        <li>Built and maintained scalable backend systems for mission-critical applications 
-                            supporting first responders, ensuring high reliability and uptime.</li>
-                        <li>Improved development workflows and system performance through code optimization, 
-                            automation, and process refinement.</li>
-                        <li>Collaborated cross-functionally with product and engineering teams in agile sprints 
-                            to deliver features that enhanced user and account management while maintaining 
-                            system stability.</li>
+                        <li>Built workflows serving every side of the platform, including officer-facing tools for 
+                            finding, working, and getting paid for jobs; supervisor tooling for scheduling, staffing, 
+                            and event coordination; and administrative workflows governing positions, assignments, 
+                            and time-off.</li>
+
+                        <li>Delivered 15+ production workflows relied on by on-duty and extra-duty officers, 
+                            including ten workflows shipped together in a single production release.</li>
+
+                        <li>Modernized legacy scheduling functionality by tracing existing .NET behavior, 
+                            redesigning backend workflows, and integrating new Go and SQL Server implementations 
+                            into a shared platform.</li>
+
+                        <li>Collaborated across engineering and product teams to design, debug, test, and deliver 
+                            production features for mission-critical public-safety scheduling workflows.</li>
                     </ul>
-                    <p>Projects</p>
+
+                    <p>Tech Stack: Go, MSSQL / SQL Server, React, .NET</p>
+
+                    <p><strong>Featured Projects</strong></p>
+
                     <ul>
-                        <li>Built modular, end-to-end workflows that improved reliability, maintainability, and 
-                            system performance across services. Redesigned and unified multiple backend platforms 
-                            by migrating the .NET codebase to Go and MSSQL. Optimized user and account management 
-                            features to streamline operations and ensure mission-critical reliability.</li>
-                        <li>Tech Stack: Go, React, MSSQL.</li>
-                        <li>Key Workflows:
-                            <ul>
-                                <li>Job Management: Available Jobs, Job Details, Take/Request Job, Transfer Job, Cancel Job, Split Job, Verify Hours, Time Balances</li>
-                                <li>Scheduling: Calendar/Schedule, Roster, Check-In/Out, Job History</li>
-                                <li>Administration: Permanent Assignments, Positions, Time Off Restrictions, Quick Check</li>
-                            </ul>
+                        <li>
+                            Combined Scheduler & Action Items:
+                            Built the officer's combined schedule for assigned and upcoming jobs with per-job 
+                            actions for viewing details, transferring jobs, and submitting cancellations under 
+                            agency-configured policies.
                         </li>
 
+                        <li>
+                            Available Jobs:
+                            Developed the browse-and-search workflow for open job assignments with map locations, 
+                            date filtering, agency-local times, self-assign vs. request behavior, multi-slot requests, 
+                            and agency-configured "request all" functionality.
+                        </li>
+
+                        <li>
+                            Split Job:
+                            Designed and delivered a CRUD workflow allowing officers to divide jobs into sequential 
+                            time segments and transfer portions to other officers, with agency-specific limits, 
+                            multi-officer support, session-backed edits, and segment-level validation.
+                        </li>
+
+                        <li>
+                            Check-In / Check-Out:
+                            Built the officer time-verification workflow for checking in and out, answering 
+                            agency-configured questions, correcting submitted hours within defined windows, and 
+                            handling no-shows and canceled-with-minimum scenarios.
+                        </li>
+
+                        <li>
+                            Job History:
+                            Delivered the officer work-history experience showing scheduled and verified times, 
+                            paid hours, compensation, and status while ensuring unverified work remains visible 
+                            until resolved.
+                        </li>
+
+                        <li>
+                            Event Management:
+                            Built supervisor scheduling tools for managing multi-job events, including event 
+                            creation, editing, cloning, job lists, rosters, officer messaging, and direct officer 
+                            assignment.
+                        </li>
+
+                        <li>
+                            Admin Scheduling Suite:
+                            Developed administrative workflows for position management, qualification requirements, 
+                            permanent assignments, rank validation, priority ordering, time-off restrictions, and 
+                            employee leave-balance checks.
+                        </li>
                     </ul>
                 </div>
+            </section>
+
+            <section class="section--page">
+                <h2>AI-Assisted Engineering</h2>
+
+            <div class="line-break"></div>
+
+            <div class="card--work-history">
+                <strong>Fullstack Labs: Agentic Engineering | Claude Code | Hypr Framework</strong>
+
+                <p>Completed company-sponsored AI engineering training focused on integrating coding agents into 
+                    real-world software development workflows, with concepts applied directly to production work 
+                    and full-stack projects.</p>
+
+                <ul>
+                    <li>Agentic Engineering: Completed an 18-module curriculum covering structured 
+                        prompting, context engineering, agentic workflows, guardrails, brownfield development, 
+                        testing, debugging, and verification.</li>
+
+                    <li>Claude Code: Completed a 16-module specialization focused on CLAUDE.md, 
+                        Plan Mode, custom agents and subagents, worktrees, permissions, hooks, and context management.</li>
+
+                    <li>Agent Development: Trained in analyzing existing codebases, identifying 
+                        architectural patterns, and generating specialized agents tailored to repository conventions.</li>
+
+                    <li>Production Application: Applied AI-assisted engineering techniques to live 
+                        production work involving Go, MSSQL, legacy .NET systems, feature development, debugging, 
+                        and brownfield modernization.</li>
+
+                    <li>Verification-First Development: Use AI to accelerate exploration and 
+                        implementation while retaining developer ownership of architecture, testing, code review, 
+                        and final verification.</li>
+                </ul>
+
+                <p>Core Workflow: Context &rarr; Plan &rarr; Implement &rarr; Review &rarr; Verify</p>
+            </div>
+
+            </section>
+
 
             <section class="section--page">
                 <h2>School Projects</h2>
@@ -115,11 +203,11 @@
 
             <section class="section--page">
                 <h2>Skills & Qualifications</h2>
-                <u1 id="Qualifications--list">
-                    <li>Business Skills: Leadership, Project Management, Creative Thinking, Organization</li>
-                    <li>Hard Skills: Programming Logic, Mathematically Inclined, Data Structures and Algorithms </li>
-                    <li>Other Skills: GitHub, AWS, AI prompting, VSCode, Xcode, Jira, Agile, CI/CD, DevOps, Docker</li>
-                </u1>
+                <ul id="Qualifications--list">
+                    <li>Tech Stack: Go, T-SQL / SQL Server, Python, JavaScript (React)</li>
+                    <li>Tools & Platforms: GitHub & GitHub Actions, Jira, Docker, SSMS, VS Code </li>
+                    <li>AI Tooling: Claude Code, GitHub Copilot, ChatGPT, MCP, Custom Agent Authoring</li>
+                </ul>
             </section>
 
             <section id="education-wrapper" class="section--page">
@@ -169,6 +257,7 @@
                         <li>Magna Cum Laude</li>
                     </ul>
                 </div>
+            </section>
 
             <section id="work-history-wrapper" class="section--page">
                 <h2>Work History</h2>
